@@ -1,4 +1,4 @@
-ELECT suppliers.CompanyName AS 'Fournisseur', COUNT(products.ProductID) AS 'Nbre produits'
+SELECT suppliers.CompanyName AS 'Fournisseur', COUNT(products.ProductID) AS 'Nbre produits'
 FROM suppliers
 INNER JOIN products ON suppliers.SupplierID = products.SupplierID
 WHERE suppliers.Country = 'France'
