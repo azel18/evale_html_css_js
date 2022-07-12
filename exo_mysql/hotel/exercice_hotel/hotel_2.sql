@@ -1,0 +1,1 @@
+SELECT * FROM `client` WHERE cli_nom = "white"
